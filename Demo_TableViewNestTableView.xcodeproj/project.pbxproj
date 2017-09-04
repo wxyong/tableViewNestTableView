@@ -13,6 +13,12 @@
 		3F3736331F5D0F6300BFA78F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3736311F5D0F6300BFA78F /* Main.storyboard */; };
 		3F3736351F5D0F6300BFA78F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3736341F5D0F6300BFA78F /* Assets.xcassets */; };
 		3F3736381F5D0F6300BFA78F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3736361F5D0F6300BFA78F /* LaunchScreen.storyboard */; };
+		3F3736471F5D10E800BFA78F /* WXYListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3736451F5D10E800BFA78F /* WXYListTableViewCell.m */; };
+		3F3736481F5D10E800BFA78F /* WXYListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F3736461F5D10E800BFA78F /* WXYListTableViewCell.xib */; };
+		3F37364C1F5D125D00BFA78F /* WXYListDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F37364A1F5D125D00BFA78F /* WXYListDetailTableViewCell.m */; };
+		3F37364D1F5D125D00BFA78F /* WXYListDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F37364B1F5D125D00BFA78F /* WXYListDetailTableViewCell.xib */; };
+		3F37364F1F5D144000BFA78F /* WXYTableViewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F37364E1F5D144000BFA78F /* WXYTableViewHeaderView.xib */; };
+		3F3736521F5D2C5D00BFA78F /* UITableView+compatibleGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3736511F5D2C5D00BFA78F /* UITableView+compatibleGesture.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,15 @@
 		3F3736341F5D0F6300BFA78F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F3736371F5D0F6300BFA78F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F3736391F5D0F6300BFA78F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3736441F5D10E800BFA78F /* WXYListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXYListTableViewCell.h; sourceTree = "<group>"; };
+		3F3736451F5D10E800BFA78F /* WXYListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXYListTableViewCell.m; sourceTree = "<group>"; };
+		3F3736461F5D10E800BFA78F /* WXYListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WXYListTableViewCell.xib; sourceTree = "<group>"; };
+		3F3736491F5D125D00BFA78F /* WXYListDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXYListDetailTableViewCell.h; sourceTree = "<group>"; };
+		3F37364A1F5D125D00BFA78F /* WXYListDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXYListDetailTableViewCell.m; sourceTree = "<group>"; };
+		3F37364B1F5D125D00BFA78F /* WXYListDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WXYListDetailTableViewCell.xib; sourceTree = "<group>"; };
+		3F37364E1F5D144000BFA78F /* WXYTableViewHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WXYTableViewHeaderView.xib; sourceTree = "<group>"; };
+		3F3736501F5D2C5D00BFA78F /* UITableView+compatibleGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+compatibleGesture.h"; sourceTree = "<group>"; };
+		3F3736511F5D2C5D00BFA78F /* UITableView+compatibleGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+compatibleGesture.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +77,16 @@
 				3F37362C1F5D0F6300BFA78F /* AppDelegate.m */,
 				3F37362E1F5D0F6300BFA78F /* ViewController.h */,
 				3F37362F1F5D0F6300BFA78F /* ViewController.m */,
+				3F37364E1F5D144000BFA78F /* WXYTableViewHeaderView.xib */,
 				3F3736311F5D0F6300BFA78F /* Main.storyboard */,
+				3F3736441F5D10E800BFA78F /* WXYListTableViewCell.h */,
+				3F3736451F5D10E800BFA78F /* WXYListTableViewCell.m */,
+				3F3736461F5D10E800BFA78F /* WXYListTableViewCell.xib */,
+				3F3736491F5D125D00BFA78F /* WXYListDetailTableViewCell.h */,
+				3F37364A1F5D125D00BFA78F /* WXYListDetailTableViewCell.m */,
+				3F37364B1F5D125D00BFA78F /* WXYListDetailTableViewCell.xib */,
+				3F3736501F5D2C5D00BFA78F /* UITableView+compatibleGesture.h */,
+				3F3736511F5D2C5D00BFA78F /* UITableView+compatibleGesture.m */,
 				3F3736341F5D0F6300BFA78F /* Assets.xcassets */,
 				3F3736361F5D0F6300BFA78F /* LaunchScreen.storyboard */,
 				3F3736391F5D0F6300BFA78F /* Info.plist */,
@@ -137,9 +161,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F37364F1F5D144000BFA78F /* WXYTableViewHeaderView.xib in Resources */,
 				3F3736381F5D0F6300BFA78F /* LaunchScreen.storyboard in Resources */,
 				3F3736351F5D0F6300BFA78F /* Assets.xcassets in Resources */,
 				3F3736331F5D0F6300BFA78F /* Main.storyboard in Resources */,
+				3F3736481F5D10E800BFA78F /* WXYListTableViewCell.xib in Resources */,
+				3F37364D1F5D125D00BFA78F /* WXYListDetailTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +179,10 @@
 			files = (
 				3F3736301F5D0F6300BFA78F /* ViewController.m in Sources */,
 				3F37362D1F5D0F6300BFA78F /* AppDelegate.m in Sources */,
+				3F3736471F5D10E800BFA78F /* WXYListTableViewCell.m in Sources */,
+				3F37364C1F5D125D00BFA78F /* WXYListDetailTableViewCell.m in Sources */,
 				3F37362A1F5D0F6300BFA78F /* main.m in Sources */,
+				3F3736521F5D2C5D00BFA78F /* UITableView+compatibleGesture.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
